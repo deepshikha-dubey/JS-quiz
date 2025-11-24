@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ <title>Quiz</title>
+ <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  
+ <script src="js/main.js"></script>
+ <script src="js/jquery.min.js"></script>
+ 
+ </head>
+ <body>
+ <div class="container">
+  <center><h1>This is the best quiz on the internet</h1></center>
+
+    <form id="quiz" name="quiz">
+      <p>That is the capital of India</p>
+	  <input id="textbox" type="text" name="question1"><br>
+	  <p> What is the capital of connecticut</p>
+	  
+	  <input type="radio" id="mc" name="question2" value="Hartford">Hartford<br>
+	  <input type="radio" id="mc" name="question2" value="Heartford">Heartford<br>
+	  
+	  <p> What is the Capital of Newyork</p>
+	  <input type="radio" id="mc" name="question3" value="Albany">Albany<br>
+	  <input type="radio" id="mc" name="question3" value="All Benny">All Benny<br><br>
+	  
+	  <input id="button" type="button" value="I'm Finished" onclick="check();">
+   </form>
+   <div id="after_submit">
+   <center>
+   <p id="message"></p>
+   <p id="number_correct"></p>
+   <img src="pictures" id ="picture"> 
+   </center>
+   </div>
+ </div>
+
+ </body>
+ 
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+ 
+ </html>
